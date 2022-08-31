@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFaJRYgeKfbI6W2qGSqDshu7FwEevO2S4&libraries=places&callback=initMap">
+        </script>
+    <script defer src="script.js"></script>
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-bar-container">
+            <input type="text" id="city-search">
+            <button type="submit"></button>
+        </div>
+        <div class="content">
+            <div class="general-information-container">
+                <div class="general-information">
+                    <div class="location">Enter A Location</div>
+                    <div class="status">--</div>
+                </div>
+                <div class="icon-container">
+                    <img src="" alt="weather-icon" class="weather-icon">
+                </div>
+            </div>
+            <div class="detail-container">
+                <div class="detail">
+                    <div class="title">Wind</div>
+                    <div class="wind">--</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Temperature</div>
+                    <div class="temperature">--</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Humidity</div>
+                    <div class="humidity">--</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
